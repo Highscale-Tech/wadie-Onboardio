@@ -1,0 +1,218 @@
+body{
+    background: linear-gradient(to bottom right,#B2DAFF,#F5F5F5);
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;            
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.login{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 150px;
+    }
+h1 { 
+      top: 0; 
+      left: 0; 
+      margin: 50px; 
+      font-weight: 100;
+      font-family: 'Roboto', sans-serif;
+      font-size: 30px;
+      letter-spacing: 5px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+img{
+    width: 350px;
+    height: 300px;
+}
+.content-left{
+height: 400px;
+display: flex;
+flex-direction: column;
+align-items: start;
+gap: 30px;
+}
+.email-pwd{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-indent: 0;
+    gap: 20px;
+    
+}
+h3{
+    font-size:40px; 
+    
+}
+input,button{
+    width: 300px;
+    height: 30px;
+    border-radius: 40px;
+    border: none;
+    
+}
+input{
+    
+    font-size: 18px;
+    border: 1px solid #0659a5;
+    height: 40px;
+    text-indent: 15px;
+    
+}
+.google{
+    display: flex;
+    align-items: center;
+    
+    text-indent: 20px;
+    
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button{
+    font-size: 18px;
+    background-color: #B2DAFF;
+    border: none;
+    cursor: pointer;
+    height: 45px;
+    border:1px solid #0659a5;
+    cursor: pointer;
+}
+button:focus{
+    background-color: #609bde;
+}
+/*HOME PAGE*/
+.left{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.left>input,p{
+    
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.right{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    border: 1px solid #0659a5;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.middle{
+   display: flex;
+   gap: 10px;
+   flex-direction: column;
+    
+}
+.emails-examples{
+   
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.content{
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-top: 50px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+.user{
+  border:1px solid #0659a5;
+  border-radius: 50px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color:#609bde;
+}
+h3{
+    font-size: 30px;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    border:1px solid #0659a5;
+    border-radius: 50px;
+    width: 70px;
+    background-color:#609bde;
+    cursor: pointer;
+}
+.emails{
+   
+    border: none;
+
+}
+.btn-email{
+    border:1px solid #0659a5;
+    
+    
+}
+.btn-email:focus{
+    background-color: #2579d8;
+
+    
+}
+.btn-email:focus{
+    background-color: #2579d8;
+}
+.edit-email{
+    height: 200px;
+    border-radius: 20px;
+}
+textarea{
+    border: none;
+    width: 300px;  
+    
+}
+.right >form> input{
+    border: none;
+    border-radius: 0;
+    width: 300px;
+}
+.right > form > div > button{
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+}
+.right > form > div{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+.right > form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
